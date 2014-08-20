@@ -1,0 +1,91 @@
+body{
+	background-color: white;
+}
+/*header*/
+.header{
+	background-color: #2C2C2C;
+}
+#head{
+	
+}
+
+div#name{
+	font-size: 65px;
+	color: white;
+}
+
+div#link{
+	font-size: 70px;
+}
+/*end of header*/
+
+/*blue bar*/
+.blue_bar{
+	background-color: #A32BAB;
+	height: 40px;
+}
+div#navigation{
+	background-color: inherit;
+	height: inherit;
+}
+/*end of blue bar*/
+
+/*content*/
+.content{
+	background-color: white;
+}
+div#content{
+	background-color: white;
+	height: 475px;
+}
+div#contact{
+	text-align: "left";
+}
+/*end of content*/
+
+/*footer*/
+.foot{
+	background-color: #2C2C2C;
+}
+
+div#footer{
+	background-color: #2C2C2C;
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}
+/*end of footer*/
+
+/*nav link styling*/
+ul#menu {  
+    list-style: none;  
+}  
+ul#menu li a {  
+    font-size: 20px;  
+    color: #DC8CE2;  
+    text-decoration: none;  
+}  
+ul#menu li a:hover 
+{
+	text-decoration: bold; 
+	color: white;
+}
+ul#menu li {  
+    float: left;  
+}  
+/*end of nav link styling*/
+
+/*url link styling*/
+a:link {
+	color:#262626; text-decoration: none;/* unvisited link */
+	}      
+a:visited {
+	color:#262626;/* visited link */
+	}  
+a:hover {
+	color:#DC8CE2;  /* mouse over link */
+}
+a:active {
+	color:#DC8CE2;  /* selected link */
+}
+/*end of url link styling*/
